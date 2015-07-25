@@ -42,5 +42,90 @@ ol {
 img {
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;	
+}
+
+.flashy {
+	color: red;
+	font-style: italic;
+}
+
+.best {
+	color: green;
+	font-weight: bold;
+	font-family: fantasy;
+}
+
+.important {
+	color: orange;
+}
+
+.unimportant {
+	color: gray;
+}
+
+.fish-type {
+	font-style: italic;
+}
+
+.intro {
+	color: teal;
+	text-align: center;
+	font-family: cursive;
+}
+
+.blog-post {
+	text-align: center;
+}
+
+.blog-post ul {
+	color: purple;
+	font-weight: bold;
+}
+
+.blog-post p {
+	color: brown;
+	font-family: cursive;
+}
+
+.about-my-cat h3 {
+	color: orange;
+	font-weight: bold;
+}
+
+.about-my-cat ul {
+	color: blue;
+	font-family: cursive;
+}
+
+.about-my-cat ul ul {
+	color: purple;
+	font-family: cursive;
+}
+
+.blue {
+	color: blue;
+	font-family: cursive;
+}
+
+.purple {
+	color: purple;
+	font-weight: bold;
+}
+
+.kitty {
+	display: block;
+	float: right;
+}
+
+.sidebar {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;		
+	background-color: yellow;
+}
+
+.column {
+	width: 300px;
+	float: left;
 }
