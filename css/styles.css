@@ -1,3 +1,27 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  /* position is static by default */
+  margin: auto;
+  color: white;
+  background-color: gray;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+}
+
 h1 {
 	color: turquoise;
 	font-weight: bold;
@@ -74,8 +98,17 @@ img {
 	font-family: cursive;
 }
 
+.intro h2 {
+	font-weight: bold;
+}
+
 .blog-post {
 	text-align: center;
+}
+
+.blog-post h3 {
+	font-size: 48px;
+	color: blue;
 }
 
 .blog-post ul {
@@ -86,6 +119,8 @@ img {
 .blog-post p {
 	color: brown;
 	font-family: cursive;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .about-my-cat h3 {
@@ -113,9 +148,10 @@ img {
 	font-weight: bold;
 }
 
-.kitty {
+img.kitty-image {
 	display: block;
 	float: right;
+	padding: 6px;
 }
 
 .sidebar {
@@ -123,9 +159,81 @@ img {
 	margin-left: auto;
 	margin-right: auto;		
 	background-color: yellow;
+	border: 5px solid blue;
+	padding: 5px;
 }
 
-.column {
+.column1 {
 	width: 300px;
 	float: left;
+	background-color: purple;
+}
+
+.column1 p {
+	color: yellow;
+}
+
+.column2 {
+	width: 300px;
+	float: left;
+	background-color: yellow;
+}
+
+.column2 p {
+	color: purple;
+}
+
+.column3 {
+	width: 300px;
+	float: left;
+	background-color: gray;
+}
+
+.column3 p {
+	color: brown;
+}
+
+.column4 {
+	width: 300px;
+	float: left;
+	background-color: brown;
+}
+
+.column4 p {
+	color: gray;
+}
+
+.my-class {
+	border: 2px solid green;
+	padding: 4px;
+	margin: 12px;
+	background-color: orange;
+}
+
+.digital p {
+	background-color: red;
+}
+
+.analog p {
+	background-color: yellow;
+}
+
+.digital p a {
+	font-weight: bold;
+}
+
+.analog p a {
+	font-style: italic;
+}
+
+a {
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+.countries h2 {
+	font-style: italic;
 }
