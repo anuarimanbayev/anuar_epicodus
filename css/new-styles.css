@@ -11,6 +11,7 @@ p.author {
 
 .important {
 	color: red;
+	font-weight: bold;
 }
 
 body {
