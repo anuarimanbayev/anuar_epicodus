@@ -9,7 +9,7 @@
 
 /**
 * To run on Windows 10:
-* Step #1: cd C:\Users\Anuar\Desktop\TECH_PREP\CODE_TEST\anuar_epicodus\java
+* Step #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\java
 * Step #2: javac NAME.java
 * This step only COMPILES the JAVA file into the CLASS file for interoperable machine code
 * Step #3: java NAME

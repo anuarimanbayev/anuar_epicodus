@@ -18,7 +18,7 @@ public class FavoriteColor {
 
 /**
 * To run on Windows 10:
-* Step #1: cd C:\Users\Anuar\Desktop\java-test
+* Step #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\java
 * Step #2: javac FavoriteColor.java
 * This step only COMPILES the JAVA file into the CLASS file for interoperable machine code
 * Step #3: java FavoriteColor
