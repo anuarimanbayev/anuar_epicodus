@@ -5,12 +5,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
+    text-shadow: black 0.4em 0.4em 0.4em;
 }
 
 p {
 	color: red;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	font-weight: bold;
+>>>>>>> origin/master
 }
 =======
 }

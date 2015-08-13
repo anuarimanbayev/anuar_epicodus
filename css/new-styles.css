@@ -11,6 +11,11 @@ p.author {
 
 .important {
 	color: red;
+	font-weight: bold;
+}
+
+body {
+	font-family: sans-serif;
 }
 <<<<<<< HEAD
 

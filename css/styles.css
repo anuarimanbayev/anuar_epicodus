@@ -99,10 +99,16 @@ img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
 .intro h2 {
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 .blog-post {
@@ -110,11 +116,17 @@ img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
 .blog-post h3 {
 	font-size: 48px;
 	color: blue;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 .blog-post ul {
@@ -126,9 +138,14 @@ img {
 	color: brown;
 	font-family: cursive;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-top: auto;
 	margin-bottom: auto;
 =======
+>>>>>>> origin/master
+=======
+	margin-top: auto;
+	margin-bottom: auto;
 >>>>>>> origin/master
 }
 
@@ -158,6 +175,7 @@ img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 img.kitty-image {
 	display: block;
 	float: right;
@@ -167,6 +185,12 @@ img.kitty-image {
 	display: block;
 	float: right;
 >>>>>>> origin/master
+=======
+img.kitty-image {
+	display: block;
+	float: right;
+	padding: 6px;
+>>>>>>> origin/master
 }
 
 .sidebar {
@@ -174,6 +198,7 @@ img.kitty-image {
 	margin-left: auto;
 	margin-right: auto;		
 	background-color: yellow;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	border: 5px solid blue;
 	padding: 5px;
@@ -254,10 +279,84 @@ h2 {
 	font-style: italic;
 }
 =======
+=======
+	border: 5px solid blue;
+	padding: 5px;
+>>>>>>> origin/master
 }
 
-.column {
+.column1 {
 	width: 300px;
 	float: left;
+	background-color: purple;
+}
+
+.column1 p {
+	color: yellow;
+}
+
+.column2 {
+	width: 300px;
+	float: left;
+	background-color: yellow;
+}
+
+.column2 p {
+	color: purple;
+}
+
+.column3 {
+	width: 300px;
+	float: left;
+	background-color: gray;
+}
+
+.column3 p {
+	color: brown;
+}
+
+.column4 {
+	width: 300px;
+	float: left;
+	background-color: brown;
+}
+
+.column4 p {
+	color: gray;
+}
+
+.my-class {
+	border: 2px solid green;
+	padding: 4px;
+	margin: 12px;
+	background-color: orange;
+}
+
+.digital p {
+	background-color: red;
+}
+
+.analog p {
+	background-color: yellow;
+}
+
+.digital p a {
+	font-weight: bold;
+}
+
+.analog p a {
+	font-style: italic;
+}
+
+a {
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+.countries h2 {
+	font-style: italic;
 }
 >>>>>>> origin/master
