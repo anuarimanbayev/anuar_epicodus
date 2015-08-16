@@ -1,6 +1,6 @@
 /**
 * Lesson 12: Advanced Branching EXERCISES
-* GradeReport Program
+* GradeReport Application
 * Program that asks a user if they got an A, B, C, D, or F in their last class.
 * Use the above tools to print out one message if the grade is an A or B, 
 * one message if the grade is a C, and one message if the grade is a D or an F.
