@@ -1,6 +1,6 @@
 /**
 * Lesson 11: Booleans
-* StartsWithZ Program
+* StartsWithZ Application
 * Application that asks user's name and then informs whether that name starts with Z or not
  */
 
