@@ -1,4 +1,4 @@
-/* REPL Boolean exploration
+/* REPL Boolean exploration via console
 */
 
 java> "1" == "1";
