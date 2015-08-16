@@ -1,6 +1,6 @@
 /**
 * Lesson 12: Advanced Branching
-* Insurance2 Program
+* Insurance2 Application
 * Program that categorizes insurance coverage expense level based on User input.
 * Displays the use of the ! operator, often called bang that means "not"
 */
