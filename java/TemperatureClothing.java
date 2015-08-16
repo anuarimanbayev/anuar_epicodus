@@ -1,6 +1,6 @@
 /**
 * Lesson 12: Advanced Branching EXERCISES
-* TemperatureClothing Program
+* TemperatureClothing Application
 * Program that asks the user for the current temperature and then recommends
 * what clothes to wear. You can use && to create temperature ranges, 
 * ex: temp > 50 && temp < 60.
