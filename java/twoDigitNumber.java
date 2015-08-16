@@ -1,7 +1,7 @@
 /**
 * Lesson 11: Booleans EXERCISE
-* twoDigitNumber Program
-* Make program that asks for a number and then tells whether it has two digits.
+* twoDigitNumber Application
+* Program that asks for a number and then tells whether it has two digits.
 * Hint: a number has two digits if it is between 10 and 99.
  */
 

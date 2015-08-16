@@ -1,6 +1,6 @@
 /**
 * Lesson 11: Booleans EXERCISE
-* legalDrinkingAge Program
+* legalDrinkingAge Application
 * Make program that asks the user's age and 
 * then tells them whether they can drink alcohol legally. 
  */

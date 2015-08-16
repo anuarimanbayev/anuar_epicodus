@@ -1,6 +1,6 @@
 /**
 * Lesson 11: Booleans
-* RatedR Program
+* RatedR Application
 * Application that checks user's age at 17 in order to allow or not allow to see rated R movie.
  */
 
