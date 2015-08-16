@@ -1,6 +1,6 @@
 /**
 * Lesson 11: Booleans EXERCISE
-* plusMinusOne Program
+* plusMinusOne Application
 * Make a program that will ask for a number and add 1 to it if it is positive or 0, and subtract 1 if it is negative. 
  */
 
