@@ -1,6 +1,6 @@
 /**
 * Lesson 12: Advanced Branching
-* Insurance Program
+* Insurance Application
 * Program that categorizes insurance coverage expense level based on User input.
 */
 
