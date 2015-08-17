@@ -1,4 +1,4 @@
-/* REPL Introduction to Java Arrays */
+/** REPL Introduction to Java Arrays **/
 
 java> String[] fruits = { "apples", "bananas", "oranges", "grapes" };
 java.lang.String[] fruits = ["apples", "bananas", "oranges", "grapes"]
