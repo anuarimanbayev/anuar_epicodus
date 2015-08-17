@@ -1,5 +1,5 @@
 /**
-* Lesson 13: Arrays EXERCISE
+* Lesson 13: Arrays EXERCISE #1
 * ArrayMultiply Appplication
 * Program takes an Integer Array and saves the results of 
 * multiplying an element by itself back into that element's index.
