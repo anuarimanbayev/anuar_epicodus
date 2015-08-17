@@ -1,13 +1,14 @@
 /**
 * Lesson 16: Ping Pong
 * PingPong or FizzBuzz Application
+* !!! TECHNICAL INTERVIEW QUESTION !!! Whiteboard material
 * The challenge is simply to make a PingPong() method that accepts a number,
 * and then will print all of the numbers from 0 up to the number it was 
 * passed. But, for multiples of three, it prints the string "ping" instead 
 * of the number, and for multiples of five, it prints the string "pong" 
 * instead of the number. For numbers that are multiples of three and five, 
 * it prints "ping-pong:".
- */
+**/
 
 /**
 * To run on Windows 10:
