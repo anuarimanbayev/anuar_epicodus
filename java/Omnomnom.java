@@ -4,7 +4,7 @@
 * Program that creates a String array containing 10 of your favorite foods. 
 * Program uses a for loop to print "I am eating" + foodItem 
 * for only 5 elements of that array. It should finish by saying "I'm full".
- */
+**/
 
 /**
 * To run on Windows 10:
