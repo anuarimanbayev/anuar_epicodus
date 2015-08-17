@@ -1,8 +1,8 @@
 /**
 * Lesson 15: For Loops
-* LeapYear Appplication* 
+* LeapYear Appplication 
 * Program that calculates all the leap years occurred from user's birth year.
- */
+**/
 
 /**
 * To run on Windows 10:

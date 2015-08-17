@@ -4,7 +4,7 @@
 * Program that creates a string array of your friends, then
 * Loop through that array and print to the console
 * adding "is my friend" to each friend's name. Ex: "Moriah is my friend"
- */
+**/
 
 /**
 * To run on Windows 10:

@@ -4,7 +4,7 @@
 * Program that asks user for a number and then loops through all numbers 
 * from 1 to that number. If a number is even it should print "even", 
 * if it is odd it should print "odd".
- */
+**/
 
 /**
 * To run on Windows 10:

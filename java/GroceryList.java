@@ -3,7 +3,7 @@
 * GroceryList Appplication
 * Version 2.0 WITH the For Each Loop
 * Program prints out a grocery list of food items.
- */
+**/
 
 /**
 * To run on Windows 10:

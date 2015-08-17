@@ -1,9 +1,9 @@
 /**
-* Lesson 13: Arrays EXERCISE
+* Lesson 13: Arrays EXERCISE #1
 * DislikeIntoLike Appplication
 * Program takes a String Array of things you don't like.
 * Then replace all of the Strings in that array with things that you do like.
- */
+**/
 
 /**
 * To run on Windows 10:
