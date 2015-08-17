@@ -3,7 +3,7 @@
 * ArrayMultiply Appplication
 * Program takes an Integer Array and saves the results of 
 * multiplying an element by itself back into that element's index.
- */
+**/
 
 /**
 * To run on Windows 10:
