@@ -6,7 +6,7 @@
 * Program creates an array of first names and then loops through it 
 * printing one line people should enter. 
 * Ex: "Moriah should bring an appetizer."
- */
+**/
 
 /**
 * To run on Windows 10:
