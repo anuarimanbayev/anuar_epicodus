@@ -6,7 +6,7 @@
 /**
 * To run on Windows 10:
 * Step #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\java\gradle-hello-world\
-* Step #2: javac NAME.java && java NAME
+* Step #2: gradle run
 **/
 
 public class HelloWorld {

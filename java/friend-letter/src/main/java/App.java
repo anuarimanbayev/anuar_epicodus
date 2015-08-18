@@ -1,7 +1,7 @@
 /**
 * Lesson 19: SPARK FriendLetter Lesson
 * FriendLetter Application
-* The "Hello World!" web app program of Spark, Java, and Gradle.
+* The "Hello World!" web app program of Java, Spark and Gradle.
 **/
 
 /**
