@@ -25,7 +25,7 @@ public class FamilyMember
         this.firstName = firstName;
         this.lastName = lastName;
 
-        //FamilyMember fm = new FamilyMember(firstName, lastName);
+        FamilyMember fm = new FamilyMember(firstName, lastName);
     }
 
     // METHODS
