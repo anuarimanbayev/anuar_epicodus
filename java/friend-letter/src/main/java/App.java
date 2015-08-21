@@ -1,12 +1,14 @@
 /**
 * Lesson 19: SPARK FriendLetter Lesson
+* Lesson 23: Layout Injection Lesson
+* Lesson 25: SPARK Forms Lesson
 * FriendLetter Application
 * The "Hello World!" web app program of Java, Spark and Gradle.
 **/
 
 /**
 * To run on Windows 10:
-* Step #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\java\friend-letter\* 
+* Step #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\java\friend-letter\ 
 * Step #2: (Gradle Spark): gradle run
 **/
 
@@ -25,13 +27,17 @@ import static spark.Spark.*;
 public class App {
   public static void main(String[] args) {
 	  staticFileLocation("/public");
+    String layout = "templates/layout.vtl";
 
 	   /** TEST ADDRESS: http://localhost:4567/
 	   Travel Letter Exercise #1: Bootstrap styling with <strong> and <em> 
      Lesson 21: Apache Velocity Template Injection
      **/
     get("/", (request, response) -> {
-      return new ModelAndView(new HashMap(), "templates/hello.vtl");
+      HashMap model = new HashMap();
+      model.put("template", "templates/hello.vtl");
+
+      return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
      /** TEST ADDRESS: http://localhost:4567/favoritephotos
@@ -39,7 +45,10 @@ public class App {
      Lesson 21: Apache Velocity Template Injection
      **/
   	get("/favoritephotos", (request, response) -> {
-      return new ModelAndView(new HashMap(), "templates/favoritephotos.vtl");
+      HashMap model = new HashMap();
+      model.put("template", "templates/favoritephotos.vtl");
+
+      return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine()); 	
 
      /** TEST ADDRESS: http://localhost:4567/favoritecompanions
@@ -48,7 +57,10 @@ public class App {
      Lesson 21: Apache Velocity Template Injection
      **/
   	get("/favoritecompanions", (request, response) -> {
-      return new ModelAndView(new HashMap(), "templates/favoritecompanions.vtl");
+      HashMap model = new HashMap();
+      model.put("template", "templates/favoritecompanions.vtl");
+
+      return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
      /** TEST ADDRESS: http://localhost:4567/travelblog
@@ -57,7 +69,29 @@ public class App {
      Lesson 21: Apache Velocity Template Injection
      **/
     get("/travelblog", (request, response) -> {
-      return new ModelAndView(new HashMap(), "templates/travelblog.vtl");
+      HashMap model = new HashMap();
+      model.put("template", "templates/travelblog.vtl");
+
+      return new ModelAndView(model, layout);
+    }, new VelocityTemplateEngine());
+
+    get("/form", (request, response) -> {
+      HashMap model = new HashMap();
+
+        model.put("template", "templates/form.vtl");
+      return new ModelAndView(model, layout);        
+    }, new VelocityTemplateEngine());
+
+    get("/greeting_card", (request, response) -> {
+      HashMap model = new HashMap();
+      String recipient = request.queryParams("recipient");
+      String sender = request.queryParams("sender");
+      System.out.println(request.queryParams());
+
+      model.put("recipient", recipient);
+      model.put("sender", sender);
+      model.put("template", "templates/greeting_card.vtl");
+      return new ModelAndView(model, layout);        
     }, new VelocityTemplateEngine());
   }
 }
