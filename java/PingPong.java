@@ -32,7 +32,7 @@ public class PingPong {
   	  	System.out.println("ping-pong");
   	  } else if (index % 3 == 0) {
   	  	System.out.println("ping");
-  	  } else if ((index % 5 == 0) && (index % 5 == 0)) {
+  	  } else if ((index % 5 == 0) {
   	  	System.out.println("pong");
   	  } else {
   	  	System.out.println(index);
