@@ -1,0 +1,16 @@
+<h1 class="text-center">Please leave a Guestbook Note with your name, brief commentary, and rating of your stay at my Dune book fan website!</h1>
+<form action = '/dune_guestbook'>
+  <div class="form-group">
+    <label for="rating">Your Rating (Number of Stars):</label> 
+    <input id="rating" name="rating" class="form-control" type="number" min="1" max="5">
+  </div>
+  <div class="form-group">
+  	<label for="visitor">Your name</label>
+  	<input id="visitor" name="visitor" class="form-control" type = "text">
+  </div>
+  <div class="form-group">
+    <label for="commentary">Your Commentary:</label>
+    <textarea class="form-control" rows="5" id="commentary" name="commentary" type="text"></textarea>
+  </div>
+  <button type="submt" class="btn">Sign Guestbook!</button>
+ </form>
