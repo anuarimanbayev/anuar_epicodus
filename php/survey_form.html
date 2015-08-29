@@ -1,0 +1,42 @@
+<!-- STEP #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\php -->
+<!-- STEP #2: php -S localhost:8000 -->
+<!-- Step #3: http://localhost:8000/survey_form.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Favorites Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Please fill out this fun Favorites Survey!</h1>
+        <form action="survey_results.php">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" name="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="food">Favorite Food</label>
+                <input id="food" name="food" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="music">Favorite Music</label>
+                <input id="music" name="music" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="sport">Favorite Sport</label>
+                <input id="sport" name="sport" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="favnum">Favorite Number</label>
+                <input id="favnum" name="favnum" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="color">Favorite Color</label>
+                <input id="color" name="color" class="form-control" type="color">
+            </div>
+            <button type="submit" class="btn">Go!</button>
+        </form>
+    </div>
+</body>
+</html>
