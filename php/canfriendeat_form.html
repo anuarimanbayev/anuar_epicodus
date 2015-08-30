@@ -1,0 +1,22 @@
+<!-- STEP #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\php -->
+<!-- STEP #2: php -S localhost:8000 -->
+<!-- Step #3: http://localhost:8000/canfriendeat_form.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Please enter a food item</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Please enter a food item</h1>
+        <form action="canfriendeat.php">
+            <div class="form-group">
+                <label for="user_fooditem">Food Item (Example: corn)</label>
+                <input id="user_fooditem" name="user_fooditem" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn-success">Go!</button>
+        </form>
+    </div>
+</body>
+</html>
