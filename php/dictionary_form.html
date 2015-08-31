@@ -1,0 +1,92 @@
+<!-- STEP #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\php -->
+<!-- STEP #2: php -S localhost:8000 -->
+<!-- Step #3: http://localhost:8000/dictionary_form.html -->
+
+<!--
+Create a dictionary of your own with 8 key-value pairs of words and definitions. Print it out using var_dump.
+Continue in the PHP shell, and print out the third and sixth entries in the dictionary, in the format "The third word is X and it means Y."
+Remove the second, fourth, sixth and eighth entries using unset.
+Use a foreach loop to print out all the remaining keys.
+Use a foreach loop to print out all the definitions, reversing the order of the letters with the strrev function.
+Add 2 more words and definitions to your dictionary.
+Use a foreach loop to print out all the keys and definitions in the browser. The keys should be displayed with <h1> tags and the values should be displayed with <h3> tags.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Make a Dictionary!</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Let's make you a dictionary!</h1>
+        <form action="dictionary.php">
+            <div class="form-group">
+                <label for="word1">Word 1: </label>
+                <input id="word1" name="word1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word1_definition">Word 1 Definition: </label>
+                <input id="word1_definition" name="word1_definition" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word2">Word 2: </label>
+                <input id="word2" name="word2" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word2_definition">Word 2 Definition: </label>
+                <input id="word2_definition" name="word2_definition" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word3">Word 3: </label>
+                <input id="word3" name="word3" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word3_definition">Word 3 Definition: </label>
+                <input id="word3_definition" name="word3_definition" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word4">Word 4: </label>
+                <input id="word4" name="word4" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word4_definition">Word 4 Definition: </label>
+                <input id="word4_definition" name="word4_definition" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word5">Word 5: </label>
+                <input id="word5" name="word5" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word5_definition">Word 5 Definition: </label>
+                <input id="word5_definition" name="word5_definition" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word6">Word 6: </label>
+                <input id="word6" name="word6" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word6_definition">Word 6 Definition: </label>
+                <input id="word6_definition" name="word6_definition" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word7">Word 7: </label>
+                <input id="word7" name="word7" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word7_definition">Word 7 Definition: </label>
+                <input id="word7_definition" name="word7_definition" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word8">Word 8: </label>
+                <input id="word8" name="word8" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="word8_definition">Word 8 Definition: </label>
+                <input id="word8_definition" name="word8_definition" class="form-control" type="text">
+            </div>
+            <button class="btn-info" type="submit">Create</button>
+        </form>
+    </div>
+</body>
+</html>
