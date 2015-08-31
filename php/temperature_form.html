@@ -1,0 +1,22 @@
+<!-- STEP #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\php -->
+<!-- STEP #2: php -S localhost:8000 -->
+<!-- Step #3: http://localhost:8000/temperature_form.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Please enter current temperature</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Please enter current temperature</h1>
+        <form action="temperature.php">
+            <div class="form-group">
+                <label for="user_temperature">Current Temperature (in Fahrenheit)</label>
+                <input id="user_temperature" name="user_temperature" class="form-control" type="number">
+            </div>
+            <button type="submit" class="btn-success">Go!</button>
+        </form>
+    </div>
+</body>
+</html>
