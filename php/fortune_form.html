@@ -1,0 +1,26 @@
+<!-- STEP #1: cd C:\Users\Anuar\Documents\GitHub\anuar_epicodus\php -->
+<!-- STEP #2: php -S localhost:8000 -->
+<!-- Step #3: http://localhost:8000/fortune_form.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Please enter your birth month and favorite color</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Please enter your birth month and favorite color</h1>
+        <form action="fortune.php">
+            <div class="form-group">
+                <label for="user_birthmonth">Birth Month (Example: October)</label>
+                <input id="user_birthmonth" name="user_birthmonth" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="user_favcolor">Favorite Color (Example: Blue)</label>
+                <input id="user_favcolor" name="user_favcolor" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn-success">Go!</button>
+        </form>
+    </div>
+</body>
+</html>
