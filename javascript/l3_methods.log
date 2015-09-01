@@ -1,0 +1,12 @@
+48432.78.toExponential();
+"4.843278e+4"
+4.587e2.toFixed();
+"459"
+46.1.toFixed(2);
+"46.10"
+8.12345.toPrecision(4);
+"8.123"
+var myNumber = 8.12345;
+undefined
+myNumber.toPrecision(4);
+"8.123"
