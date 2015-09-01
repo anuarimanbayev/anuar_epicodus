@@ -1,0 +1,46 @@
+"Greetings my comrade friend!";
+"Greetings my comrade friend!"
+var friendGreeting = "Greetings my comrade friend!";
+undefined
+friendGreeting
+"Greetings my comrade friend!"
+friendGreeting.toLowerCase();
+"greetings my comrade friend!"
+friendGreeting.toUpperCase();
+"GREETINGS MY COMRADE FRIEND!"
+var victorymessage = "Onwards to victory!";
+undefined
+victorymessage.toUpperCase();
+"ONWARDS TO VICTORY!"
+friendGreeting.toLowerCase();
+"greetings my comrade friend!"
+friendGreeting.concat(victorymessage);
+"Greetings my comrade friend!Onwards to victory!"
+friendGreeting + " " + victorymessage
+"Greetings my comrade friend! Onwards to victory!"
+friendGreeting.charAt(3);
+"e"
+9
+9
+"9"
+"9"
+friend = "friend";
+"friend"
+friendGreeting.includes(friend);
+true
+friendGreeting.includes("enemy");
+false
+friendGreeting.endsWith(friend);
+false
+friendGreeting.indexOf(friend);
+21
+friend.repeat(3);
+"friendfriendfriend"
+friendGreeting.split();
+["Greetings my comrade friend!"]
+friendGreeting
+"Greetings my comrade friend!"
+friendGreeting.split(" ");
+["Greetings", "my", "comrade", "friend!"]
+friendGreeting
+"Greetings my comrade friend!"
