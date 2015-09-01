@@ -1,0 +1,26 @@
+9238.479.toExponential();
+"9.238479e+3"
+98370923874.32.toExponential();
+"9.837092387432e+10"
+324.64322.toExponential()
+"3.2464322e+2"
+9.238479e3.toFixed();
+"9238"
+98730923874.32.toFixed()
+"98730923874"
+9.837092387432e10.toFixed();
+"98370923874"
+3.2464322e2.toFixed();
+"325"
+9238.479.toFixed(2);
+"9238.48"
+98370923874.32.toFixed(1);
+"98370923874.3"
+324.64322.toFixed(2);
+"324.64"
+var favoriteNumber = 56.77;
+undefined
+favoriteNumber.toExponential(2);
+"5.68e+1"
+5.68e1.toFixed(2);
+"56.80"
