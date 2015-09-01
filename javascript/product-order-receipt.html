@@ -1,0 +1,54 @@
+<!-- Lesson #11 EXERCISES: DOM Forms -->
+
+<!-- TASK #3: Product Order Receipt -->
+<!--
+Create a website with a form on it to take the user's full name and address as if they were ordering a product from you. 
+After they submit the form you should show them a receipt. Thank them for purchasing whatever it is you are selling, 
+and be sure to use their full name. Then reprint their address as a confirmation of shipping details.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles_hiddenoutput.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts_upcasestring.js"></script>
+    <title>Product Order Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please fill this Proder Order Form:</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="product">Product</label>
+            <input id="product" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="first_name">First Name</label>
+            <input id="first_name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="last_name">Last Name</label>
+            <input id="last_name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input id="address" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Print my receipt!</button>
+        </form>
+      </div>
+
+      <div id="hidden_output">   
+        <h1>Dear <span class="first_name"></span> <span class="last_name"></span></h2>
+        <h2>Thank you for your purchase of <span class="product"></span>!</h3>
+
+        <h3>Purchase Address Confirmation</h3>
+        <p><span class="address"></span></p>            
+      </div>
+    </div>
+  </body>
+</html>
