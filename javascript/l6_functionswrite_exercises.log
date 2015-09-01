@@ -1,0 +1,48 @@
+var named_greeting = function(name) { "Greetings " + name + !"; };
+Uncaught SyntaxError: Unexpected token ILLEGAL
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+var named_greeting = function(name) { "Greetings " + name + "!"; };
+undefined
+named_greeting("Daniar");
+undefined
+named_greeting("Daniar")
+undefined
+var named_greeting = function(name) { alert("Greetings " + name + "!"); };
+undefined
+named_greeting("Daniar")
+undefined
+vad subtract = function(number1, number2) { return number1 - number2; };
+Uncaught SyntaxError: Unexpected identifier
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+var subtract = function(number1, number2) { return number1 - number2; };
+undefined
+subtract(5, 3);
+2
+var product = function(number1, number2) { return number1 * number2 };
+undefined
+product(5, 3);
+15
+var threeTimes = function(number1, number2, number3) { return number1 * number2 * number3; };
+undefined
+threeTimes(6, 5, 3);
+90
+threeTimes(3, 2, 1);
+6
+var quotient = function(number1, number2) { return number1 / number2; };
+undefined
+qutioent(15, 3);
+Uncaught ReferenceError: qutioent is not defined
+    at <anonymous>:2:1
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+quotient(15, 3);
+5
+var remainder = function(number1, number2) { return number1 % number2; };
+undefined
+remainder(16, 3);
+1
