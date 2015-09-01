@@ -1,0 +1,22 @@
+alert("Warning! Your Vault is under attack by Radroaches!");
+undefined
+confirm("Dispatch your Security personnel?");
+true
+prompt("Do you wish to send Officer Yates or Officer Bates?");
+"Officer Bates"
+var active_officer = prompt("Do you wish to send Officer Yates or Officer Bates? Please type: Officer NAME");
+undefined
+active_officer.toUpperCase().concat(" to the Vault Door immediately!!!");
+"OFFICER BATES to the Vault Door immediately!!!"
+var active_engineer = prompt("To repair the damage to the Vault, do you send Engineer Gary (Intelligence 4, Strength 4) or Engineer Sally (Intelligence 10, Strength 1)?");
+undefined
+active_engineer
+"Engineer Sally"
+acitve_engineer.toUpperCase().concat(" to the Vault Door in 30 minutes!!!").split(" ");
+Uncaught ReferenceError: acitve_engineer is not defined
+    at <anonymous>:2:1
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+active_engineer.toUpperCase().concat(" to the Vault Door in 10 minutes!!!").split(" ");
+["ENGINEER", "SALLY", "to", "the", "Vault", "Door", "in", "10", "minutes!!!"]
