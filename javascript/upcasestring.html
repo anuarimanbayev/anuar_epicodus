@@ -1,0 +1,37 @@
+<!-- Lesson #11 EXERCISES: DOM Forms -->
+
+<!-- TASK #2: Uppercase a String -->
+<!--
+Create a page that asks the user to type something into a field, and when they submit the form, have the page say it back to them in all uppercase.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles_hiddenoutput.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts_upcasestring.js"></script>
+    <title>Up Case a string!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please type some text into the field</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="user_text">Type some text into this field</label>
+            <input id="user_text" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Submit!</button>
+        </form>
+      </div>
+
+      <div id="hidden_output">        
+        <h1>You Typed: <span class="user_text"></span></h1>
+        <h1>You Get: <span class="user_text_upcased"></span></h1>        
+      </div>
+    </div>
+  </body>
+</html>
