@@ -1,0 +1,16 @@
+alert("Hello world!");
+undefined
+prompt("What is the air-speed velocity of an unladen swallow?");
+"African or European?"
+var favoriteColor = prompt("What is your favorite color?");
+undefined
+prompt("Type someting in lowercase:").toUpperCase();
+"LOWERCASE"
+confirm()
+true
+var foo;
+undefined
+var foo = "foo";
+undefined
+foo
+"foo"
