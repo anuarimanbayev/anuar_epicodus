@@ -1,0 +1,36 @@
+"Hello world!";
+"Hello world!"
+"5674";
+"5674"
+"!?&";
+"!?&"
+"Strings are crazy ! ;)";
+"Strings are crazy ! ;)"
+hello;
+Uncaught ReferenceError: hello is not defined
+    at <anonymous>:2:1
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+var myString = "Strings can contain characters like @, $, and %.";
+undefined
+myString
+"Strings can contain characters like @, $, and %."
+"supercalifragilisticexpialidocious".toUpperCase();
+"SUPERCALIFRAGILISTICEXPIALIDOCIOUS"
+var word = "foo";
+undefined
+word.concat("bar");
+"foobar"
+"foo".concat("bar").toUpperCase();
+"FOOBAR"
+"I love" + " " + "Epicodus";
+"I love Epicodus"
+"caterpillar".charAt(5);
+"p"
+"Quoth the raven, \"Nevermore.\"";
+"Quoth the raven, "Nevermore.""
+'Quoth the raven, "Nevermore."';
+"Quoth the raven, "Nevermore.""
+'"Programming is fun!", she exclaimed.';
+""Programming is fun!", she exclaimed."
