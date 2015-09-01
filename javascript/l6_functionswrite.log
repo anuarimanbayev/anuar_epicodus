@@ -1,0 +1,12 @@
+var sayHi = function () { alert('Hello from Epicodus!'); };
+undefined
+sayHi();
+undefined
+var saySomething = function(whatToSay) { alert(whatToSay); };
+undefined
+saySomething("hello");
+undefined
+var add = function(number1, number2) { return number1 + number2; };
+undefined
+add(3, 5);
+8
