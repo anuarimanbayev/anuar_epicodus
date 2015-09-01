@@ -1,0 +1,32 @@
+var myNumber = 45;
+undefined
+myNumber;
+45
+myNumber = 50;
+50
+myNumber;
+50
+var favoriteNumber = 13;
+undefined
+favoriteNumber * 4;
+52
+var favoriteNumber = 7;
+undefined
+favoriteNumber + 1;
+8
+favoriteNumber;
+7
+var favoriteNumber = 6;
+undefined
+favoriteNumber = favoriteNumber + 1;
+7
+favoriteNumber;
+7
+var num1 = 5;
+undefined
+var num2 = 6;
+undefined
+var num3 = num1 + num2;
+undefined
+num3;
+11
