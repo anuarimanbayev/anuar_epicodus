@@ -1,0 +1,34 @@
+var someName = "Anuar";
+undefined
+someName
+"Anuar"
+someName = "Daniar";
+"Daniar"
+var favoriteNumber = 56;
+undefined
+favoriteNumber / 2
+28
+michaelsFavorite = 13;
+13
+michaelsFavorite = 7;
+7
+michalesFavorite - favoriteNumber
+Uncaught ReferenceError: michalesFavorite is not defined
+    at <anonymous>:2:1
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+michaelsFavorites - favoriteNumber
+Uncaught ReferenceError: michaelsFavorites is not defined
+    at <anonymous>:2:1
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+michaelsFavorite - favoriteNumber
+-49
+michaelsFavorite * 26
+182
+michaelsFavorite = michaelsFavorite * 26
+182
+michaelsFavorite
+182
