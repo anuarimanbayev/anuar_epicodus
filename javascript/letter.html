@@ -1,0 +1,43 @@
+<!-- Lesson #11 EXERCISES: DOM Forms -->
+
+<!-- TASK #1: LETTER -->
+<!--
+Make a form letter where the user inputs their name, and they get back a letter addressed to them. 
+Feel free to use lorum ipsum for the text of the letter. Use Bootstrap and your knowledge of CSS to make the letter look like a letter.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles_letter.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts_letter.js"></script>
+    <title>A Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please provide your name</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="user_name">Your Name</label>
+            <input id="user_name" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Send me my letter!</button>
+        </form>
+      </div>
+
+      <div id="letter">        
+        <h1>Greetings From Afar</h1>
+        <h2>Dear <span class="user_name"></span>,</h2>        
+        <p>How are you? I hope that you are having a nice weekend. I'm vacationing in the steppes of Mongolia while I learn programming! </p>
+        <p><span class="user_name"></span>, you would not believe how cold it is here. I should have gone to Hawaii instead. But I like programming a lot, so I've got that going for me. </p>
+        <p>Looking forward to seeing you soon. I'll bring you back a souvenir. </p>
+        <p>Cheers,</p>
+        <p>Anuar</p>
+      </div>
+    </div>
+  </body>
+</html>
