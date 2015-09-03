@@ -1,0 +1,30 @@
+// Shift + Enter to multiline in Javascript Console
+var total = 0;
+undefined
+summands = [1, 2, 3, 4, 5];
+[1, 2, 3, 4, 5]
+summands.forEach(function(summand) {
+Uncaught SyntaxError: missing ) after argument list
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+summands.forEach(function(summand) {
+ total += summand;
+});
+undefined
+total
+15
+summands = [3, 4, 5, 78, 3, 2, 48, 8, 8]
+[3, 4, 5, 78, 3, 2, 48, 8, 8]
+summands.forEach(function(summand) {
+  total += summand;
+Uncaught SyntaxError: missing ) after argument list
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+summands.forEach(function(summand) {
+  total += summand;
+});
+undefined
+total
+174
