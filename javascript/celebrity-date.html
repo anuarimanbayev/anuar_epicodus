@@ -1,0 +1,45 @@
+<!-- Lesson #14: More Branching -->
+
+<!-- EXERCISE #1: Celebrity Date
+A celebrity dating webpage, where you enter information about yourself, and the page suggests which celebrity you should date.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles_celebritydate.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts_celebritydate.js"></script>
+    <title>Celebrity Date</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Date</h1>
+
+      <p>To match your celebrity date best, we need to know a little about you:</p>
+
+      <form id="insurance">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <label for="fitness">Health Fitness Level</label>
+        <select id="fitness">
+          <option value="fit">Healthy Fit</option>
+          <option value="not_fit">Not Healthy Fit</option>
+        </select>
+
+        <button type="submit" class="btn">Match a celebrity to my date!</button>
+      </form>
+
+      <div id="celebrity_date">
+        <h1>You are matched up with the celebrity: <strong><span id="celebrity"></span></strong>!!!</h1>
+        <h2>Enjoy your date!</h2>
+      </div>
+    </div>
+  </body>
+</html>
