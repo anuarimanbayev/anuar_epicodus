@@ -1,0 +1,19 @@
+#turtles, #snakes, #insects {
+  display: none;
+}
+
+#animal_choice {
+	text-align: center;
+}
+
+#turtles {
+	text-align: center;
+}
+
+#snakes {
+	text-align: center;
+}
+
+#insects {
+	text-align: center;
+}
