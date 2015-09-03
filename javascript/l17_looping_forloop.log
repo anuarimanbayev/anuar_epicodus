@@ -1,0 +1,10 @@
+for (var index = 1; index <= 3; index += 1) {
+  alert(index);
+}
+undefined
+var languages = ['HTML', 'CSS', 'Javascript'];
+undefined
+for (var index = 0; index < languages.length; index += 1) {
+  alert('I love ' + languages[index] + '!');
+}
+undefined
