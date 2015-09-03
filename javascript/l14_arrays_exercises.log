@@ -1,0 +1,64 @@
+var siblings = ["Galym", "Daniar"];
+undefined
+siblings
+["Galym", "Daniar"]
+var parents = ["Talapker", "Jannat"];
+undefined
+parents
+["Talapker", "Jannat"]
+var family = siblings.concat(parents);
+undefined
+family
+["Galym", "Daniar", "Talapker", "Jannat"]
+family.push("Jako");
+5
+family.push("Mika");
+6
+family
+["Galym", "Daniar", "Talapker", "Jannat", "Jako", "Mika"]
+family.reverse();
+["Mika", "Jako", "Jannat", "Talapker", "Daniar", "Galym"]
+family[2]
+"Jannat"
+family.concat(['Almaty', 'Lake Oswego']);
+["Mika", "Jako", "Jannat", "Talapker", "Daniar", "Galym", "Almaty", "Lake Oswego"]
+family.pop();
+"Galym"
+family
+["Mika", "Jako", "Jannat", "Talapker", "Daniar"]
+family.push("Galym")
+6
+family.reverse();
+["Galym", "Daniar", "Talapker", "Jannat", "Jako", "Mika"]
+family.pop()
+"Mika"
+family.pop()
+"Jako"
+family
+["Galym", "Daniar", "Talapker", "Jannat"]
+family.splice();
+[]
+family
+["Galym", "Daniar", "Talapker", "Jannat"]
+family.shift();
+"Galym"
+family.unshift();
+3
+family
+["Daniar", "Talapker", "Jannat"]
+family.includes("Daniar");
+Uncaught TypeError: family.includes is not a function
+    at <anonymous>:2:8
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+family.includes();
+Uncaught TypeError: family.includes is not a function
+    at <anonymous>:2:8
+    at Object.InjectedScript._evaluateOn (<anonymous>:905:140)
+    at Object.InjectedScript._evaluateAndWrap (<anonymous>:838:34)
+    at Object.InjectedScript.evaluate (<anonymous>:694:21)
+family.join();
+"Daniar,Talapker,Jannat"
+family.splice(",");
+["Daniar", "Talapker", "Jannat"]
