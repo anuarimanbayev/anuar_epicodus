@@ -1,0 +1,6 @@
+var friends=["Raafay", "Budri", "Sharif"];
+undefined
+friends.forEach(function(friend) {
+  alert("Hello " + friend + "!");
+});
+undefined
