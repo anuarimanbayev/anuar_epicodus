@@ -1,0 +1,46 @@
+var months = ["january", "february", "march", "april"];
+undefined
+months
+["january", "february", "march", "april"]
+[2, 4, 7, 9]
+[2, 4, 7, 9]
+["e", "p", "i", "c", "o", "d", "u", "s"]
+["e", "p", "i", "c", "o", "d", "u", "s"]
+["word", 45, "blah", 123]
+["word", 45, "blah", 123]
+var variable = "i'm a variable!"
+undefined
+[variable, "i'm not a variable"]
+["i'm a variable!", "i'm not a variable"]
+[62, 62 / 2]
+[62, 31]
+["string", 123, ["another string", 456], 321, "blah"]
+["string", 123, Array[2], 321, "blah"]
+["apple", "organe", "kiwi"].pop();
+"kiwi"
+var fruits = ["apple", "organe", "kiwi"];
+undefined
+fruits.pop();
+"kiwi"
+fruits
+["apple", "organe"]
+[1, 2, 3].reverse();
+[3, 2, 1]
+var greetings = [];
+undefined
+greetings.push("hi");
+1
+greetings.push("hello");
+2
+greetings
+["hi", "hello"]
+greetings.concat(['hola', 'buenos dias']);
+["hi", "hello", "hola", "buenos dias"]
+greetings = greetings.concat(['hola', 'buenos dias']);
+["hi", "hello", "hola", "buenos dias"]
+greetings
+["hi", "hello", "hola", "buenos dias"]
+greetings[0]
+"hi"
+greetings[2]
+"hola"
