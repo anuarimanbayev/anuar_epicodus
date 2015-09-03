@@ -1,0 +1,24 @@
+#tall, #normal, #short {
+  display: none;
+}
+
+#header {
+	text-align: center;
+}
+
+#tall {
+	text-align: center;
+}
+
+#normal {
+	text-align: center;
+}
+
+#short {
+	text-align: center;
+}
+
+#highlight {	
+	background-color: yellow;
+  	border: 3px solid blue;
+}
