@@ -1,0 +1,59 @@
+<!-- Lesson #13: Branching -->
+
+<!-- EXERCISE #3: Amusement Park Height
+A page for an amusement park that only shows you information on rides that you're tall enough to go on. 
+Then try showing a list of all of the rides in the park and just highlighting (with CSS) the ones that they can ride on.
+Make sure there are some rides that an adult can't ride on because they are too tall.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles_parkheight.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts_parkheight.js"></script>
+    <title>Amusement Park Height Determinator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <h1>Amusement Park Height Determinator</h1>
+        <h2>Based on your height, here is the list of rides that you may ride:</h2>
+      </div>
+      
+      <div id="tall">        
+        <p id="highlight">Space Mountain: Minimum Height 7 </p>
+        <p id="highlight">Pirates of the Caribbean: Minimum Height 6 </p>
+        <p>Dune Spice: Maximum Height 5 </p>
+        <p id="highlight">Waterworld: Minimum Height 5 </p>
+        <p id="highlight">Steampunkworks: Minimum Height 4 </p>
+        <p>Cooties: Maximum Height 3 </p>
+        <p id="highlight">Kiddie Kart: Minimum Height 3 </p>        
+        <p id="highlight">Kiddie Boat: Minimum Height 2 </p>        
+      </div>
+
+      <div id="normal">        
+        <p>Space Mountain: Minimum Height 7 </p>
+        <p>Pirates of the Caribbean: Minimum Height 6 </p>
+        <p id="highlight">Dune Spice: Maximum Height 5 </p>
+        <p id="highlight">Waterworld: Minimum Height 5 </p>
+        <p id="highlight">Steampunkworks: Minimum Height 4 </p>
+        <p id="highlight">Cooties: Maximum Height 3 </p>
+        <p id="highlight">Kiddie Kart: Minimum Height 3 </p>
+        <p id="highlight">Kiddie Boat: Minimum Height 2 </p>           
+      </div>
+
+      <div id="short">        
+        <p>Space Mountain: Minimum Height 7 </p>
+        <p>Pirates of the Caribbean: Minimum Height 6 </p>
+        <p>Dune Spice: Maximum Height 5 </p>
+        <p>Waterworld: Minimum Height 5 </p>
+        <p>Steampunkworks: Minimum Height 4 </p>
+        <p id="highlight">Cooties: Maximum Height 3 </p>
+        <p id="highlight">Kiddie Kart: Minimum Height 3 </p>
+        <p id="highlight">Kiddie Boat: Minimum Height 2 </p>               
+      </div>
+    </div>
+  </body>
+</html>
