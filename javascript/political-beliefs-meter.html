@@ -1,0 +1,62 @@
+<!-- Lesson #14: More Branching -->
+
+<!-- EXERCISE #2: Political Beliefs Meter
+A political beliefs meter that asks you questions about your values and tells you how liberal or conservative you are.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles_politicalmeter.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts_politicalmeter.js"></script>
+    <title>Political Beliefs Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Political Beliefs Meter</h1>
+
+      <p>To tell how liberal or conservative you are, please answer questions about your values and stances on the following topics:</p>
+
+      <form id="political_beliefs">
+        <label for="abortion">Abortion</label>
+        <select id="abortion">
+          <option value="abortion_for">For Abortion</option>
+          <option value="abortion_against">Against Abortion</option>
+        </select>
+        <label for="immigration">Immigration</label>
+        <select id="immigration">
+          <option value="immigration_for">For Immigration</option>
+          <option value="immigration_against">Against Immigration</option>
+        </select>
+        <label for="gunreform">Gun Reform</label>
+        <select id="gunreform">
+          <option value="gunreform_for">For Gun Reform</option>
+          <option value="gunreform_against">Against Gun Reform</option>
+        </select>
+        <label for="homosexual_marriage">Homosexual Marriage</label>
+        <select id="homosexual_marriage">
+          <option value="homosexual_marriage_for">For Homosexual Marriage</option>
+          <option value="homosexual_marriage_against">Against Homosexual Marriage</option>
+        </select>
+        <label for="public_policy">Public Policy</label>
+        <select id="public_policy">
+          <option value="public_policy_diplomacy">For Diplomacy</option>
+          <option value="public_policy_war">For War</option>
+        </select>
+        <label for="environment">Environment Protection</label>
+        <select id="environment">
+          <option value="environment_for">For Environment Protection</option>
+          <option value="environment_against">Against Environment Protection</option>
+        </select>
+
+        <button type="submit" class="btn">Tell me how liberal or conservative I am!</button>
+      </form>
+
+      <div id="political_meter">
+        <h1>You are: <strong><span id="political_perspective"></span></strong> with a score of <strong><span id="political_score"></span></strong></h1>        
+      </div>
+    </div>
+  </body>
+</html>
