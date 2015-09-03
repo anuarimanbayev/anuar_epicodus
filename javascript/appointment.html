@@ -1,0 +1,56 @@
+<!-- Lesson #11 EXERCISES: DOM Forms -->
+
+<!-- TASK #4: Appointment -->
+<!--
+Create a website for booking appointments with you. 
+The user should enter their name, the date they would like for their appointment, as well as the start and end times. 
+Again, after they submit the form you should show them a confirmation page telling them that the booking was successful, 
+and be sure to reprint all the information they entered into your form for confirmation.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles_hiddenoutput.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts_appointment.js"></script>
+    <title>Booking Appointment Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please book this Appoint Form:</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="appointment_date">Appointment Date</label>
+            <input id="appointment_date" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="time_start">Start Time</label>
+            <input id="time_start" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="time_end">End Time</label>
+            <input id="time_end" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Print my confirmation!</button>
+        </form>
+      </div>
+
+      <div id="hidden_output">
+        <h1>Appointment was successfully booked!</h1>
+        <h2>Appointment Confirmation</h2>
+        <p>Name: <span class="name"></span></p>
+        <p>Date: <span class="appointment_date"></span></p>
+        <p>Start Time: <span class="time_start"></span></p>
+        <p>End Time: <span class="time_end"></span></p>          
+      </div>
+    </div>
+  </body>
+</html>
