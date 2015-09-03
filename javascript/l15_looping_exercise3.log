@@ -1,0 +1,8 @@
+var total = 1;
+undefined
+products.forEach(function(product) {
+  total = total * product;
+});
+undefined
+total
+120
